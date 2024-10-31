@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 30px;
+    width: 450px;
+    height: 500px;
+    font: bold;
+    display: grid;
+    grid-template-areas: 
+    "res res res res"
+    "limpiar limpiar division multi"
+    "siete ocho nueve menos"
+    "cuatro cinco seis mas"
+    "uno dos tres igual"
+    "cero cero punto igual";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    height: 80vh;
+}
+
+#resultado{
+    grid-area: res;
+}
+
+#limpiar{
+    grid-area: limpiar;
+}
+
+#nueve{
+    grid-area: nueve;
+}
+
+#siete{
+    grid-area: siete;
+}
+
+#ocho{
+    grid-area: ocho;
+}
+
+#menos{
+    grid-area: menos;
+}
+
+#division{
+    grid-area: division;
+}
+
+#multi{
+    grid-area: multi;
+}
+
+#cuatro{
+    grid-area: cuatro;
+}
+
+#cinco{
+    grid-area: cinco;
+}
+
+#seis{
+    grid-area: seis;
+}
+
+#mas{
+    grid-area: mas;
+}
+
+#uno{
+    grid-area: uno;
+}
+
+#dos{
+    grid-area: dos;
+}
+
+#tres{
+    grid-area: tres;
+}
+
+#igual{
+    grid-area: igual;
+}
+
+#cero{
+    grid-area: cero;
+}
+
+#punto{
+    grid-area: punto;
+}
